@@ -4,7 +4,7 @@ import GoalItem from './GoalItem'
 const GoalList = ({ goals, onEdit, onDelete }) => {
 
   return (
-      <div>
+      <div className='justify-items-center p-6'>
       <h2 className="text-2xl font-bold mb-4">Your Goals</h2>
       <ul className="space-y-4">
         {goals && goals.length > 0 ? (
